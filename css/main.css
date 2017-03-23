@@ -11,3 +11,10 @@ ul {
 .right ul {
   float: right;
   margin-top: 25px; }
+  .right ul li {
+    border-left: 2px solid black;
+    border-right: 2px solid black; }
+
+#bgImage {
+  height: 382px;
+  background-image: url("../images/bgImage.jpg"); }
