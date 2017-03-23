@@ -16,7 +16,7 @@ header {
 }
 
 .right{
-   
+
 	ul{
         float: right;
         margin-top: 25px;
@@ -25,7 +25,15 @@ header {
             border-right: 2px solid black;
             padding: 10px;
         }
-	} 
+	}
+}
+#info{
+	text-align: center;
+	div{
+		button,h6{
+			margin-top: 10px;
+		}
+	}
 }
 #bgImage {
     height: 382px;

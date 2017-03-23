@@ -19,6 +19,11 @@ header {
     border-right: 2px solid black;
     padding: 10px; }
 
+#info {
+  text-align: center; }
+  #info div button, #info div h6 {
+    margin-top: 10px; }
+
 #bgImage {
   height: 382px;
   background-image: url("../images/bgImage.jpg");
