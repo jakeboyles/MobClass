@@ -1,0 +1,19 @@
+ul{
+	display: inline-block;
+	li{
+	display: inline;
+	margin-right: 25px;
+	font-size: 18px;
+	}
+}
+
+.left{
+	display: inline;
+}
+
+.right{
+	ul{
+	float: right;
+	margin-top: 25px;
+	} 
+}
