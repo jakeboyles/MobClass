@@ -5,6 +5,9 @@ ul {
     margin-right: 25px;
     font-size: 18px; }
 
+header {
+  height: 100px; }
+
 .left {
   display: inline; }
 
@@ -13,8 +16,11 @@ ul {
   margin-top: 25px; }
   .right ul li {
     border-left: 2px solid black;
-    border-right: 2px solid black; }
+    border-right: 2px solid black;
+    padding: 10px; }
 
 #bgImage {
   height: 382px;
-  background-image: url("../images/bgImage.jpg"); }
+  background-image: url("../images/bgImage.jpg");
+  background-size: cover;
+  /* background-position: -300px -50px; */ }
